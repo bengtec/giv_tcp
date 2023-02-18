@@ -139,8 +139,8 @@ Data is published to "GivEnergy/<serial_number>/" by default or you can nominate
 
 Control is available using MQTT. By publishing data to the smae MQTT broker as above you can trigger the control methods as per the above table.
 Root topic for control is:
-"GivEnergy/<serial_number>/control/"    - Default
-"<MQTT_TOPIC>/<serial_number>/control/" - If MQTT_TOPIC is set
+"GivEnergy/control/<serial_number>/"    - Default
+"<MQTT_TOPIC>/control/<serial_number>/" - If MQTT_TOPIC is set
 
 
 ### RESTful Service
